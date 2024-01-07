@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ru.melni.SimpleJUnitTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-01-07T17:36:40" hostname="AAMELNICHENKO" time="0.014">
+  <properties/>
+  <testcase name="firstTest()" classname="ru.melni.SimpleJUnitTest" time="0.012"/>
+  <testcase name="secondTest()" classname="ru.melni.SimpleJUnitTest" time="0.001"/>
+  <system-out><![CDATA[BeforeAll
+BeforeEach
+firstTest
+AfterEach
+
+BeforeEach
+secondTest
+AfterEach
+
+AfterAll
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
