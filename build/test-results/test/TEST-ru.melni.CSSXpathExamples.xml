@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ru.melni.CSSXpathExamples" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-01-14T11:02:08" hostname="AAMELNICHENKO" time="4.014">
+<testsuite name="ru.melni.CSSXpathExamples" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-01-14T12:09:48" hostname="AAMELNICHENKO" time="4.924">
   <properties/>
-  <testcase name="fillFormTest()" classname="ru.melni.CSSXpathExamples" time="4.014"/>
+  <testcase name="fillFormTest()" classname="ru.melni.CSSXpathExamples" time="4.924"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[SLF4J: No SLF4J providers were found.
 SLF4J: Defaulting to no-operation (NOP) logger implementation

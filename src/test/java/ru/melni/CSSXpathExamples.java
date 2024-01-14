@@ -7,8 +7,7 @@ import org.openqa.selenium.By;
 
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selectors.byText;
-import static com.codeborne.selenide.Selenide.$;
-import static com.codeborne.selenide.Selenide.open;
+import static com.codeborne.selenide.Selenide.*;
 import static org.openqa.selenium.By.id;
 
 public class CSSXpathExamples {
@@ -23,6 +22,8 @@ public class CSSXpathExamples {
     @Test
     void fillFormTest() {
         open("/automation-practice-form");
+        executeJavaScript("$('#fixedban').remove()");
+        executeJavaScript("$('footer').remove()");
         $("#firstName").setValue("Alena");
         $("#lastName").setValue("Melnichenko");
         $("#userEmail").setValue("melnichenko2001@gmail.com");
